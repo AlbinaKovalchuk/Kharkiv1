@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="modal.css">
+    <link href="
+        https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+        " rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title> Kharkiv</title>
+</head>
+
+<body>
+    <div class="city-page">
+        <div class="wrapper">
+            <div class="city-text-container">
+                <h1 class="city-title">Харків</h1>
+                <p class="city-descr">
+                    Заснований 1654 року, налічує більше 1,4 млн. українців та є одним із найбільших міст України.
+                    Могутнє, світле та мальовниче, його називають першою столицею та вважають науковим центром України.
+                    Найбільша площа в
+                    Європі розташована саме в Харкові й має назву площа Свободи. Перший в Україні аеропорт був
+                    побудований саме у
+                    Харкові. Місто за правом вважається студентською
+                    столицею
+                    України, а Харківський національний університет – один із найстаріший ВНЗ України.
+                    Ми живемо у місті, яке має не тільки багатющу історію, а славне й донині. Ми маємо пам'ятки
+                    архітектури та історії не тільки українського, а й світового рівня.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="city-gallery">
+        <h2 class="city-gallery-title">Харків - перша столиця України</h2>
+        <div class="wrapper">
+            <div class="gallery">
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="0">
+                    <img class="gallery-image" src="img/1.jpg" alt="Kharkiv City Council" width="200" height="200">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="1">
+                    <img class="gallery-image" src="img/2.jpg" alt="" width="200" height="200">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="2">
+                    <img class="gallery-image" src="img/3.jpg" alt="" width="200" height="200">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="3">
+                    <img class="gallery-image" src="img/4.jpg" alt="" width="200" height="200">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="4">
+                    <img class="gallery-image" src="img/5.jpg" alt="" width="200" height="200">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="5">
+                    <img class="gallery-image" src="img/6.jpg" alt="Shevchenko" width="200" height="200">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="6">
+                    <img class="gallery-image" src="img/7.jpg" alt="" width="200" height="200">
+                </button>
+                <button class="gallery-button" data-micromodal-trigger="modal" data-index="7">
+                    <img class="gallery-image" src="img/8.jpg" alt="" width="200" height="200">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal micromodal-slide" id="modal" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+                <header class="modal__header">
+                    <h2 class="modal__title" id="modal-title">
+                        Історичні пам'ятки міста Харків
+                    </h2>
+                    <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+                </header>
+                <main class="modal__content" id="modal-content">
+                    <div class="splide" role="group" aria-label="city-gallery">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <h2 class="page-title">Харківська міська рада</h2>
+                                    <p class="page-info">Будівля Харківської міської ради на пл. Конституції, 7
+                                        схоже своєю долею на будівлю Обласної ради. Вона також є пам'яткою
+                                        архітектури, пережила дві реконструкції у різних архітектурних стилях, але стіни
+                                        будівлі сягають корінням у 1885 рік. Міський будинок був збудований на
+                                        Миколаївській
+                                        площі 1883-1885 р. за проектом архітектора Болеслава Михаловского. </p>
+                                    <img src="img/1.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <h2 class="page-title">Держпром</h2>
+                                    <p class="page-info"> Будинок Державної промисловості є найвищою будівлею в Харкові.
+                                        Його висота (з урахуванням телевежі) становить 108 метрів.</p>
+                                    <img src="img/2.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <h2 class="page-title"> Юридична академія імені Ярослава Мудрого</h2>
+                                    <p class="page-info">Національна юридична академія Я. Мудрого є одним із
+                                        найпрестижніших вищих навчальних закладів нашої країни, а також однією з
+                                        найстаріших будівель
+                                        Харкова. Побудували юридичну академію 1891-го. Вона стала першою роботою
+                                        відомого
+                                        харківського
+                                        архітектора Бекетова (пізніше він збудував у місті ще не одну будівлю).
+                                        Будівля головного корпусу академії виглядає урочисто та має
+                                        пропорційність деталей. Виконана вона у стилі неоренесансу.
+                                        2000 року в академії встановили пам'ятник Ярославу Мудрому.</p>
+                                    <img src="img/3.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <h2 class="page-title">Іподром</h2>
+                                    <p class="page-info">Спроектував його архітектор З. Харманський. Стиль споруди –
+                                        модерн. Іподром ввели в експлуатацію у 1848 році. З часом і в міру
+                                        популяризації кінного спорту він розвивався. За радянських часів іподром був
+                                        одним із найбільших у країні. На жаль, пожежа, знищила практично всю
+                                        архітектуру.</p>
+                                    <img src="img/4.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <h2 class="page-title">Майдан Свободи</h2>
+                                    <p class="page-info"> Ця велична площа входить до рейтингу 12 найбільших
+                                        площ у світі. Якби додати до нього Шевченківський парк, як до деяких
+                                        великих площ світу додають паркові зони, то вона могла б вважатися найбільш
+                                        великою у світі.</p>
+                                    <img src="img/5.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <h2 class="page-title">Сад Шевченко</h2>
+                                    <p class="page-info">Сад імені Т. Шевченка – міський парк Харкова, створений на
+                                        основі природного дубового гаю. Закладено сад Шевченка було в 1804 році В.
+                                        Каразіним, засновником Харківського університету. А 1896 року на території
+                                        парку було відкрито перший в Україні — Харківський зоологічний сад.На
+                                        центральній алеї розташований пам'ятник Тарасу
+                                        Григоровичу Шевченку скульптора М. Г. Манізера
+                                        та архітектора І. Г. Лангбарда.</p>
+                                    <img src="img/6.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <h2 class="page-title"> Дзеркальний струмінь</h2>
+                                    <p class="page-info">Пам'ятник Перемоги або більше відомий як Дзеркальний струмінь
+                                        визнаний головним символом міста. Зображення цієї альтанки досить часто
+                                        зустрічається на листівках, афішах і туристичних буклетах про Харків. Згідно з
+                                        однією з історій створення цього пам'ятника, Дзеркальний струмінь був
+                                        споруджений з ініціативи М. С. Хрущова.
+                                        Позаду Дзеркального струменя розташований найголовніший театр міста -
+                                        Харківський театр опери та балету ім. М. В. Лисенка. Цей театр був першим
+                                        стаціонарним оперним театром В Україні, а проект його будинку спочатку був
+                                        розроблений не для Харкова, а для столиці. </p>
+                                    <img src="img/7.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <h2 class="page-title">Благовіщенський собор</h2>
+                                    <p class="page-info">На Благовіщенській вулиці в Харкові розташований величний
+                                        собор, який є ровесником самого міста. Благовіщенському собору по праву належить
+                                        звання головного храму харківської єпархії Української православної церкви. Крім
+                                        своєї величезної значущості в православному житті, цей храм представляє
+                                        безперечний інтерес як історичної архітектурної пам'ятки Харкова.
+                                    </p>
+                                    <img src="img/8.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+
+    <script src="
+        https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+        "></script>
+    <script src="gallery.js">
+
+    </script>
+</body>
+
+</html>
